@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!-- <link rel="stylesheet" type="text/css" href="fullpage.css" /> -->
@@ -38,7 +39,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link active" href="#">Blog</a>
+      <a class="nav-item nav-link active" href="http://blog.hmsiunand.com/">Blog</a>
       <a class="nav-item nav-link" href="#">About Us</a>
     </div>
   </div>
@@ -111,7 +112,7 @@
       <section class="page3">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item">
               <div class="event">
                 <div class="title">
                     <span class="title-event"><p class="title-event-ya">GRAMORIS</p><span class="nick-event">Graduation Ceremony of Information System</span> </span>
@@ -126,15 +127,22 @@
                       <div class="text"></div>
                   </div>
                   <div class="circle two" style="top:400px;right: 450px">
-                      <div class="text">HELLO</div>
+                      <div class="text"></div>
                     </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item isce">
+            <div class="carousel-item isce active">
               <div class="event">
                 <div class="title">
-                    <span class="title-event"><p class="title-event-ya">ISCE</p><span class="nick-event">Information System Celebration & Event</span> </span>
+                    <span class="title-event">
+                      <p class="title-event-ya">ISCE</p>
+                      <span class="nick-event">Information System Celebration & Event</span><br><br>
+                      <span class="visit-me">
+                          <a href="http://isce.hmsiunand.com/">Visit Me</a>
+                      </span>
+
+                    </span>
                 </div>
                 <div class="pict-event">
                   <div class="circle-color" style="top:100px;">
@@ -144,7 +152,7 @@
                       <div class="text"></div>
                   </div>
                   <div class="circle two" style="top:400px;right: 450px">
-                      <div class="text">HELLO</div>
+                      <div class="text"></div>
                     </div>
                 </div>
               </div>
@@ -152,7 +160,10 @@
             <div class="carousel-item">
               <div class="event">
                 <div class="title">
-                    <span class="title-event"><p class="title-event-ya">BAKSOS</p><span class="nick-event">Bakti Sosial</span> </span>
+                    <span class="title-event">
+                      <p class="title-event-ya">BAKSOS</p>
+                      <span class="nick-event">Bakti Sosial</span>
+                    </span>
                 </div>
                 <div class="pict-event">
                   <div class="circle-color" style="top:100px;">
@@ -162,7 +173,7 @@
                       <div class="text"></div>
                   </div>
                   <div class="circle two" style="top:400px;right: 450px">
-                      <div class="text">HELLO</div>
+                      <div class="text"></div>
                     </div>
                 </div>
               </div>
@@ -180,16 +191,16 @@
       </section>
       <section class="page4">
         <div class="overlay overlay-2">
-          <div class="content-blog" style="position:absolute;bottom:50px;left:0; right:0">
+          <div class="content-blog" style="position:absolute;bottom:10px;left:0; right:0">
             <h1 class="title-blog">Misi</h1>
-            <p style="font-size:1.2em;">Membantu pelaksanaan Tri Dharma Perguruan Tinggi sesuai dengan bidangnya mahasiswa Sistem Informasi;<br>
+            <p class="visi-misi">Membantu pelaksanaan Tri Dharma Perguruan Tinggi sesuai dengan bidangnya mahasiswa Sistem Informasi;<br>
               Meningkatkan kualitas SDM baik secara intelektualitas maupun profesionalisme;</p>
           </div>
         </div>
         <div class="overlays overlay-2">
-          <div class="content-blog" style="position:absolute;top:50px;left:0; right:0;color:grey">
+          <div class="content-blog" style="position:absolute;top:10px;left:0; right:0;color:grey">
             <h1 class="title-blog">Visi</h1>
-            <p style="font-size:1.2em;">Meningkatkan mutu dan kualitas anggota sesuai dengan bidangnya;<br>
+            <p class="visi-misi">Meningkatkan mutu dan kualitas anggota sesuai dengan bidangnya;<br>
               Meningkatkan rasa persaudaraan diantara anggotanya;<br>
               Membantu pelaksanaan Tri Dharma Perguruan Tinggi sesuai dengan bidangnya;</p>
           </div>
@@ -253,7 +264,7 @@
               <h1 style="text-align:left;margin:0">See what's happening</h1>
             </div>
             <div class="content-blogs" style="text-align:right;">
-              <a href="#" class="button-blog">Kunjungi Blog</a>
+              <a href="http://blog.hmsiunand.com/" class="button-blog">Kunjungi Blog</a>
             </div>
           </div>
         </div>
